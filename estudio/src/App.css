@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.textPart {
+  padding: 10px;
+  align-items: center;
+}
+
+.textpart em {
+  padding-left: 50 px ;
+  padding-right: 50 px ;
+}
+
+.textPart p {
+  padding-left: 50 px ;
+  padding-right: 50 px ;
+}
+
+
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+button:disabled {
+  background-color: #cccccc; /* Disabled button color */
+  cursor: not-allowed;
+}
+
+.translation em{
+  color: #9000ff;
+  font-size: x-large;
+  padding: 20px;
+}
+
+
+.tempTranscript {
+  padding: 20px;
+  text-align: center;
+  max-width: 1000px;
+  overflow-wrap: break-word;
+}
+
+
+.transcript {
+  padding: 20px;
+  text-align: left;
+  max-width: 1000px;
+  width: 100%; /* Allow responsive shrinkage */
+  overflow-wrap: break-word;
+  position: relative; /* To allow positioning of the copy button */
+}
